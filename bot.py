@@ -58,7 +58,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN)
-    updater.bot.setWebhook('https://vast-refuge-19289.herokuapp.com/' + TOKEN)
+    updater.bot.setWebhook('https://telebotg2m.herokuapp.com' + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
